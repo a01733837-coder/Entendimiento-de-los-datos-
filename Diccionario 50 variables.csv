@@ -1,0 +1,51 @@
+variable_en,nombre_es,descripcion_es
+id,id,Identificador único de la propiedad. Sirve como clave primaria para unir o diferenciar observaciones.
+scrape_id,id_extraccion,Marca temporal de la extracción de datos; útil para comparar con diferentes cortes de información
+host_id,id_anfitrion,"Identificador del anfitrión, necesario para analizar actividad y comportamiento por anfitrión."
+host_listings_count,anuncios_activos_host,Número de propiedades activas del host; ayuda a diferenciar entre anfitriones individuales y empresas.
+host_total_listings_count,anuncios_totales_host,"Total de propiedades listadas por host, incluso inactivas; importante para medir experiencia del anfitrión."
+neighbourhood_group_cleansed,zona_agrupada,Variable geográfica categorizada; permite agrupar áreas más amplias de la ciudad.
+latitude,latitud,Coordenada geográfica esencial para análisis espacial y mapas.
+longitude,longitud,"Complementa la localización precisa en el mapa,útil para georreferenciación"
+accommodates,capacidad_huespedes,Número de huéspedesque puede alojar; factor clave en segmentación de propiedades.
+bathrooms,baños,"número debaños, indicador fuerte de comodidad y precio."
+bedrooms,habitaciones,número de habitaciones; directamente relacionado con capacidad y tarifas.
+beds,camas,"número de camas, ayuda a medir la capacidad real de hospedaje."
+minimum_nights,noches_minimas,Restricciones de estadía máxima;útil para analizar políticas de reserva.
+maximum_nights,noches_maximas,"Límite de estadía máxima, también refleja estrategia del anfitrión."
+minimum_minimum_nights,min_noches_minimas,Valor mínimo histórico para estadías cortas; permite ver flexibilidad del host.
+maximum_minimum_nights,max_noches_minimas,Restricciones más estrictas históricas en estadías mínimas.
+minimum_maximum_nights,min_noches_maximas,Restricciones mínimas sobre la estadí­a máxima.
+maximum_maximum_nights,max_noches_maximas,Restricciones máximas sobre la estadía máxima.
+minimum_nights_avg_ntm,prom_noches_min_cal,"Promedio de noches mínimas, ajustado por calendario.  refinada de política de reservas."
+maximum_nights_avg_ntm,prom_noches_max_cal,Promedio de noches máximas. Útil para analizar comportamiento de largo plazo.
+availability_30,disponibilidad_30,Dí­as disponibles en los próximos 30 dí­as. Indicador de ocupación a corto plazo.
+availability_60,disponibilidad_60,"Disponibilidad en 60 días, permite ver planificación a mediano plazo."
+availability_90,disponibilidad_90,"Disponibilidad en 90 días,útil para predicciones de temporada alta."
+availability_365,disponibilidad_365,Disponibilidad en un año; mide constancia de la propiedad en la plataforma.
+number_of_reviews,num_resenas,"Cantidad total de reseñas, indicador de popularidad y confianza."
+number_of_reviews_ltm,resenas_ult_12m,número de reseñas en los últimos 12 meses; mide actividad reciente.
+number_of_reviews_l30d,resenas_ult_30d,Reseñas en los últimos 30 días; refleja demanda actual.
+availability_eoy,disponibilidad_fin_ano,"Disponibilidad al final del año,útil para medir cierres por temporada."
+number_of_reviews_ly,resenas_ult_ano,número de reseñas en el último año calendario. Complementa la variable anterior.
+estimated_occupancy_l365d,ocupacion_est_365d,Tasa estimada de ocupación en 365 días. Clave para análisis de performance.
+estimated_revenue_l365d,ingresos_est_365d,Ingreso estimado anual. Una de las métricas principales para análisis financiero.
+review_scores_rating,puntaje_global,Calificación promedio global. Factor decisivo en percepción del cliente.
+review_scores_accuracy,puntaje_precision,Evalúa si la descripción corresponde con la realidad. Impacta en la confianza.
+review_scores_cleanliness,puntaje_limpieza,Calificación de limpieza. Fundamental en hospitalidad.
+review_scores_checkin,puntaje_checkin,Puntaje de proceso de entrada. Influye en satisfacción inicial del cliente.
+review_scores_communication,puntaje_comunicacion,Evalúa la comunicación host-huésped. Clave en experiencia del usuario.
+review_scores_location,puntaje_ubicacion,Puntaje de ubicación; importante para precios y elección del huésped.
+review_scores_value,puntaje_valor,Relación valor-precio según el huésped. Afecta la competitividad del listing.
+calculated_host_listings_count,anuncios_activos_calc,número de propiedades activas del host calculado por Airbnb.
+calculated_host_listings_count_entire_homes,anuncios_calc_casas_completas,número de casas/apartamentos completos listados por el host.
+calculated_host_listings_count_private_rooms,anuncios_calc_habitaciones_privadas,Cantidad de cuartos privados listados.
+calculated_host_listings_count_shared_rooms,anuncios_calc_habitaciones_compartidas,Cantidad de cuartos compartidos listados.
+reviews_per_month,resenas_por_mes,Promedio mensual de reseñas; aproxima la frecuencia de reservas.
+listing_url,url_anuncio,URL de la propiedad. Identificador externoútil para verificar registros.
+last_scraped,fecha_ultima_extraccion,Fecha de última extracción; asegura vigencia de la información
+source,fuente,Fuente de los datos; importante si se comparan datasets distintos.
+name,titulo_anuncio,"Nombre del anuncio, contiene palabras claveútiles para análisis de texto."
+description,descripcion,Descripción del anuncio;útil para análisis semántico y extracción de insights.
+neighborhood_overview,descripcion_vecindario,"Texto descriptivo del vecindario, clave para marketing y segmentación geográfica."
+host_name,nombre_anfitrion,Nombre del anfitrión. Útil para detectar duplicados y analizar reputación junto con host_id.
